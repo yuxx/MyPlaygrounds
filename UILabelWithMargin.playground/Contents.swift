@@ -21,7 +21,7 @@ class BorderLabel: UIView {
     var label: UILabel?
     static let defaultMargin = UIEdgeInsets(top: 2, left: 4, bottom: 2, right: 4)
     static let defaultBorderWidth: CGFloat = 2
-    static let defaultCornerRadius: CGFloat = 14
+    static let defaultCornerRadius: CGFloat = 10
     static let defaultFont = UIFont.systemFont(ofSize: 12)
     func setLabelText(labelText: String, font: UIFont? = nil) {
         let tempLabel = UILabel(frame: CGRect(
